@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "../../components/Navbar";
 import Sidebar from "../../components/Sidebar";
-import AccordionSection from "../../components/AccordionSection";
+import AccordionSection from "../components/AccordionSection";
 import { sessionUser, defaultProfile } from "../../data/mockData";
 import { Pencil, Check } from "lucide-react";
 
