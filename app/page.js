@@ -1,8 +1,9 @@
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
-import CourseTable from "../components/CourseTable";
-import { ProctorPanel, CreditPanel, SpotlightPanel } from "../components/SidePanels";
-import { sessionUser, currentSemester, creditStatus, spotlight, proctorMessage } from "../data/mockData";
+import AccordionSection from "@/components/AccordionSection";
+import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
+import CourseTable from "@/components/CourseTable";
+import { ProctorPanel, CreditPanel, SpotlightPanel } from "@/components/SidePanels";
+import { sessionUser, currentSemester, creditStatus, spotlight, proctorMessage } from "@/data/mockData";
 
 export default function DashboardPage() {
   return (
