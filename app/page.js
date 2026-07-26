@@ -1,4 +1,4 @@
-import AccordionSection from "@/components/AccordionSection";
+import AccordionSection from "../../components/AccordionSection";
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 import CourseTable from "@/components/CourseTable";
